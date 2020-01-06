@@ -1,14 +1,13 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Header from "../components/Header"
+import Layout from "../components/Layout"
 import TagList from "../components/TagList"
 
 export default ({ data }) => {
   const projects = data.allMarkdownRemark.edges
 
   return (
-    <React.Fragment>
-      <Header title="Hola mundo desde Gatsby"></Header>
+    <Layout>
       <h2>Dummy projects</h2>
       {projects.map(({ node }) => (
         <div key={node.id}>
@@ -21,7 +20,7 @@ export default ({ data }) => {
           <p>{node.excerpt}</p>
         </div>
       ))}
-    </React.Fragment>
+    </Layout>
   )
 }
 
