@@ -1,9 +1,12 @@
 import React from "react"
+import styles from "./TagList.module.css"
 
 export default ({ tags }) => (
-  <ul>
+  <ul className={styles.root}>
     {tags.map((tag, index) => (
-      <li key={index}>{tag}</li>
+      <li className={styles.item} key={index}>
+        {tag}
+      </li>
     ))}
   </ul>
 )
