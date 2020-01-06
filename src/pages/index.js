@@ -1,14 +1,7 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Header from "../components/Header"
-
-const TagList = ({ tags }) => (
-  <ul>
-    {tags.map((tag, index) => (
-      <li key={index}>{tag}</li>
-    ))}
-  </ul>
-)
+import TagList from "../components/TagList"
 
 export default ({ data }) => {
   const projects = data.allMarkdownRemark.edges
@@ -19,9 +12,11 @@ export default ({ data }) => {
       <h2>Dummy projects</h2>
       {projects.map(({ node }) => (
         <div key={node.id}>
-          <h3>
-            {node.frontmatter.title} - {node.frontmatter.date}
-          </h3>
+          <Link to={node.fields.slug}>
+            <h3>
+              {node.frontmatter.title} - {node.frontmatter.date}
+            </h3>
+          </Link>
           <TagList tags={node.frontmatter.tags}></TagList>
           <p>{node.excerpt}</p>
         </div>
@@ -43,6 +38,9 @@ export const query = graphql`
             tags
           }
           excerpt
+          fields {
+            slug
+          }
         }
       }
     }
