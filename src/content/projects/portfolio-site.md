@@ -1,12 +1,16 @@
 ---
-title: Second Project
+title: Portfolio Site
+excerpt: A site to show my recent projects. Made with Gatsby using markdown for the content.
 date: 2020-01-05
 tags:
-  - Node
-  - work
+  - Side project
+  - Gatsby
+  - React
+  - Sass
+  - Sketch
 ---
 
-This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
+A site to show my recent projects. Made with Gatsby using markdown for the content.
 
 ```shell
 gatsby develop

@@ -1,3 +1,12 @@
 import React from "react"
+import styles from "./Header.module.scss"
 
-export default ({ title }) => <h1>{title}</h1>
+export default ({ name, jobTitle, imgSrc }) => (
+  <div className={styles.root}>
+    <img className={styles.image} src={imgSrc} alt="" />
+    <div className="content">
+      <h1 className={styles.mainTitle}>{name}</h1>
+      <p className={styles.subTitle}>{jobTitle}</p>
+    </div>
+  </div>
+)

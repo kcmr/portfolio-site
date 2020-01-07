@@ -1,20 +1,25 @@
-import React from "react"
+import githubIcon from "@iconify/icons-simple-icons/github"
+import { InlineIcon } from "@iconify/react"
 import { Link } from "gatsby"
+import React from "react"
 import TagList from "../components/TagList"
-import styles from "./ArticleSummary.module.css"
+import styles from "./ArticleSummary.module.scss"
 
-export default ({ link, title, date, tags, summary }) => {
+export default ({ link, title, tags, summary }) => {
   return (
     <div className={styles.root}>
-      <h3>
+      <h3 className={styles.title}>
+        <InlineIcon className={styles.icon} icon={githubIcon} />
         <Link to={link}>
-          <span>{title}</span> – <span>{date}</span>
+          <span>{title}</span>
         </Link>
       </h3>
 
-      {tags.length && <TagList tags={tags}></TagList>}
+      <p className={styles.summary}>{summary}</p>
 
-      <p>{summary}</p>
+      <div className={styles.bottom}>
+        <TagList tags={tags}></TagList>
+      </div>
     </div>
   )
 }

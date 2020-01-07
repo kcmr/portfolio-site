@@ -1,0 +1,70 @@
+@import "utils";
+
+html {
+  --color-blue: #067cca;
+  --color-green: #0d800c;
+  --color-accent: var(--color-blue);
+
+  --color-neutral-light: #fff;
+  --color-neutral-dark: #000;
+
+  --color-gray-light: #f9fbff;
+  --color-gray-medium: #f6f7f9;
+  --color-gray-dark: #363c58;
+
+  --font-stack-sans-copy: "Open Sans", sans-serif;
+  --font-stack-sans-heading: "Libre Franklin", sans-serif;
+
+  --font-weight-light-heading: 200;
+  --font-weight-medium-heading: 600;
+  --font-weight-bold-heading: 800;
+
+  --font-weight-light-copy: 300;
+  --fotn-weight-regular-copy: 400;
+
+  --font-size-small-copy: #{rem(12)}; // tags
+  --font-size-medium-copy: #{rem(15)}; // cards
+  --font-size-large-copy: #{rem(20)}; // quotes, jumbo
+
+  --font-size-small-heading: #{rem(18)}; // h3, card title
+  --font-size-medium-heading: #{rem(24)}; // h2, section title
+  --font-size-large-heading: #{rem(36)}; // h1, main title
+
+  --line-height: 1.6;
+
+  --grid-size: #{rem(8)};
+}
+
+body {
+  margin: 0;
+  color: var(--color-neutral-dark);
+  background-color: var(--color-gray-medium);
+  font-family: var(--font-stack-sans-copy);
+  line-height: var(--line-height);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-stack-sans-heading);
+  font-weight: var(--font-weight-bold-heading);
+}
+
+h1 {
+  font-size: var(--font-size-large-heading);
+  line-height: 1;
+}
+
+h2 {
+  font-size: var(--font-size-medium-heading);
+}
+
+h3 {
+  font-size: var(--font-size-small-heading);
+  font-weight: var(--font-weight-medium-heading);
+}

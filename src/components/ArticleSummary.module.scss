@@ -1,0 +1,33 @@
+@import "../styles/utils.scss";
+
+.root {
+  display: block;
+  background-color: var(--color-neutral-light);
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  padding: grid-units(2);
+}
+
+.title {
+  margin: 0 0 0.5rem;
+  vertical-align: middle;
+}
+
+.icon {
+  color: #626262;
+  width: 1rem;
+  margin-right: grid-units(1);
+}
+
+.summary {
+  font-weight: var(--font-weight-light-copy);
+  font-size: var(--font-size-medium-copy);
+  margin-top: 0;
+}
+
+.bottom {
+  margin-left: grid-units(-2);
+  margin-right: grid-units(-2);
+  padding: grid-units(2) grid-units(2) 0;
+  border-top: 1px solid #e1e1e1;
+}

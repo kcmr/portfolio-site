@@ -1,0 +1,24 @@
+@import "../styles/utils.scss";
+
+.jumboText {
+  font-size: var(--font-size-large-copy);
+  font-weight: var(--font-weight-light-copy);
+  padding-left: grid-units(12);
+}
+
+.projectList {
+  padding-top: grid-units(4);
+  padding-left: grid-units(12);
+}
+
+.gridList {
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: grid-units(2);
+}
+
+.gridItem {
+  flex: 1 1 300px;
+}

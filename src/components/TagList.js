@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./TagList.module.css"
+import styles from "./TagList.module.scss"
 
 export default ({ tags }) => (
   <ul className={styles.root}>

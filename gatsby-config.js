@@ -17,5 +17,14 @@ module.exports = {
       },
     },
     "gatsby-transformer-remark",
+    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Open Sans:300,400", "Libre Franklin:100,600,800"],
+        },
+      },
+    },
   ],
 }
