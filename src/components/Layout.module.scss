@@ -3,10 +3,18 @@
 .root {
   max-width: grid-units(160); // 1280px
   margin: 0 auto;
-  padding: var(--vertical-margin-x-large) grid-units(2);
+  padding: var(--vertical-space-x-large) grid-units(2) 0;
   box-sizing: border-box;
 
   @include mq($from: x-large) {
     transform: translateX(grid-units(-6));
+  }
+}
+
+.footer {
+  padding: var(--vertical-space-x-large) grid-units(2);
+
+  hr {
+    margin-bottom: var(--vertical-space-x-large);
   }
 }

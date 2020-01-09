@@ -1,0 +1,34 @@
+@import "../styles/utils";
+
+.root {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  font-family: var(--font-stack-sans-heading);
+  font-weight: var(--font-weight-medium-heading);
+  margin: 0 grid-units(3);
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-gray-dark);
+
+  &:hover {
+    color: var(--color-accent);
+
+    .icon {
+      color: var(--color-neutral-dark);
+    }
+  }
+}
+
+.icon {
+  margin-bottom: grid-units(1);
+}

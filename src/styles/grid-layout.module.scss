@@ -3,7 +3,7 @@
 @include mq($from: medium) {
   .grid {
     display: grid;
-    grid-template-columns: 1fr #{rem(292)};
+    grid-template-columns: 1fr rem(292);
     grid-template-rows: auto;
     grid-template-areas:
       "header header"

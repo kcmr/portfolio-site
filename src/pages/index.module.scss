@@ -1,7 +1,5 @@
 @import "../styles/utils";
 
-$gridItemMinWidth: 288px;
-
 .headerAligned {
   @include mq($from: medium) {
     padding-left: grid-units(12);
@@ -12,8 +10,8 @@ $gridItemMinWidth: 288px;
   composes: headerAligned;
   font-size: var(--font-size-large-copy);
   font-weight: var(--font-weight-light-copy);
-  max-width: grid-units(95.5); // 764
-  margin-bottom: var(--vertical-margin-x-large);
+  max-width: grid-units(95.5);
+  margin-bottom: var(--vertical-space-x-large);
 
   p {
     margin-top: 0;
@@ -22,17 +20,16 @@ $gridItemMinWidth: 288px;
 
 .projectList {
   composes: headerAligned;
-  margin-bottom: var(--vertical-margin-large);
+  margin-bottom: var(--vertical-space-large);
 }
 
 .gridList {
-  display: flex;
   flex-wrap: wrap;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax($gridItemMinWidth, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(rem(288), 1fr));
   grid-gap: grid-units(2);
 }
 
 .gridItem {
-  flex: 1 1 $gridItemMinWidth;
+  flex: 1 1 rem(288);
 }

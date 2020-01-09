@@ -53,9 +53,9 @@ export default ({ data }) => {
         </SidebarBlock>
         <SidebarBlock title="Me in 3 years…">
           <p>
-            I don't like to manage people. I hope to be a better and more
-            experienced developer that can solve problems in simpler ways and
-            take better decisions.
+            I hope to be a better and more experienced developer that can solve
+            problems in simpler ways and take better decisions. In other words,
+            I don't like to manage people.
           </p>
         </SidebarBlock>
         <SidebarBlock title="Near goals">
