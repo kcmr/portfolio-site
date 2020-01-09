@@ -1,7 +1,8 @@
 @import "../styles/utils.scss";
 
 .root {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background-color: var(--color-neutral-light);
   box-shadow: 0 5px 6px -5px rgba(0, 0, 0, 0.19), inset 0 -1px 0 0 #e1e1e1;
   // border: 1px solid #e1e1e1;
@@ -24,6 +25,7 @@
   font-weight: var(--font-weight-light-copy);
   font-size: var(--font-size-medium-copy);
   margin-top: 0;
+  flex: 1;
 }
 
 .bottom {
