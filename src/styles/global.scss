@@ -23,6 +23,7 @@ html {
   --font-weight-light-copy: 300;
   --font-weight-regular-copy: 400;
 
+  // default text sizes (< small)
   --font-size-small-copy: #{rem(12)}; // tags
   --font-size-medium-copy: #{rem(15)}; // cards
   --font-size-large-copy: #{rem(18)}; // quotes, jumbo
@@ -37,9 +38,9 @@ html {
   --vertical-space-large: #{grid-units(4)};
 
   @include mq($from: small) {
-    --font-size-large-copy: #{rem(20)}; // quotes, jumbo
-    --font-size-medium-heading: #{rem(24)}; // h2, section title
-    --font-size-large-heading: #{rem(36)}; // h1, main title
+    --font-size-large-copy: #{rem(20)};
+    --font-size-medium-heading: #{rem(24)};
+    --font-size-large-heading: #{rem(36)};
   }
 
   @include mq($from: large) {
