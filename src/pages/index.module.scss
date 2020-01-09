@@ -1,10 +1,12 @@
 @import "../styles/utils.scss";
 
+$gridItemMinWidth: 296px;
+
 .jumboText {
   font-size: var(--font-size-large-copy);
   font-weight: var(--font-weight-light-copy);
   padding-left: grid-units(12);
-  max-width: #{rem(763)};
+  max-width: grid-units(95.5); // 764
 }
 
 .projectList {
@@ -16,10 +18,10 @@
   display: flex;
   flex-wrap: wrap;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax($gridItemMinWidth, 1fr));
   grid-gap: grid-units(2);
 }
 
 .gridItem {
-  flex: 1 1 300px;
+  flex: 1 1 $gridItemMinWidth;
 }

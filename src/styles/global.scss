@@ -2,15 +2,14 @@
 
 html {
   --color-blue: #067cca;
-  --color-green: #0d800c;
   --color-accent: var(--color-blue);
 
   --color-neutral-light: #fff;
   --color-neutral-dark: #000;
 
-  --color-gray-light: #f9fbff;
-  --color-gray-medium: #f6f7f9;
-  --color-gray-dark: #363c58;
+  --color-gray-light: #f6f7f9;
+  --color-gray-medium: rgba(0, 0, 0, 0.12);
+  --color-gray-dark: rgba(0, 0, 0, 0.6);
 
   --font-stack-sans-copy: "Open Sans", sans-serif;
   --font-stack-sans-heading: "Libre Franklin", sans-serif;
@@ -38,7 +37,7 @@ html {
 body {
   margin: 0;
   color: var(--color-neutral-dark);
-  background: var(--color-gray-medium) url("../images/circuit-board.png") repeat;
+  background: var(--color-gray-light) url("../images/circuit-board.png") repeat;
   font-family: var(--font-stack-sans-copy);
   line-height: var(--line-height);
 }
