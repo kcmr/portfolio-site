@@ -11,7 +11,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      <div className="content">
+      <main>
         <div className={styles.jumboText}>
           <p>
             I’m a self-taught Front End Developer with more than 13 years of
@@ -23,7 +23,7 @@ export default ({ data }) => {
           <p>I like everything related with QA, testing and automation.</p>
         </div>
 
-        <div className={styles.projectList}>
+        <section className={styles.projectList}>
           <h2>Featured projects</h2>
           <div className={styles.gridList}>
             {projects.map(({ node: project }) => {
@@ -42,10 +42,10 @@ export default ({ data }) => {
               )
             })}
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
 
-      <div className={gridStyles.sidebar}>
+      <aside className={gridStyles.sidebar}>
         <h2>Self-Interview</h2>
 
         <SidebarBlock title="UI design or develop?">
@@ -76,7 +76,7 @@ export default ({ data }) => {
             but the medium to get the best result for a task.
           </p>
         </SidebarBlock>
-      </div>
+      </aside>
     </Layout>
   )
 }

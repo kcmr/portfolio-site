@@ -37,4 +37,8 @@ const listItem = (props, index) => (
   </li>
 )
 
-export default () => <ul className={styles.root}>{items.map(listItem)}</ul>
+export default () => (
+  <address className={styles.root}>
+    <ul className={styles.list}>{items.map(listItem)}</ul>
+  </address>
+)

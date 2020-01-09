@@ -7,19 +7,16 @@ import styles from "./ArticleSummary.module.scss"
 
 export default ({ link, repoUrl, title, tags, summary }) => {
   return (
-    <div className={styles.root}>
+    <article className={styles.root}>
       <h3 className={styles.title}>
         <a
           className={styles.iconLink}
           href={repoUrl}
           rel="noopener noreferrer"
           target="_blank"
+          aria-label="Github repo"
         >
-          <InlineIcon
-            className={styles.icon}
-            icon={githubIcon}
-            alt="Github repo"
-          />
+          <InlineIcon className={styles.icon} icon={githubIcon} />
         </a>
         <Link to={link}>
           <span>{title}</span>
@@ -31,6 +28,6 @@ export default ({ link, repoUrl, title, tags, summary }) => {
       <div className={styles.bottom}>
         <TagList tags={tags}></TagList>
       </div>
-    </div>
+    </article>
   )
 }
