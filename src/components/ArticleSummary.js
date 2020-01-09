@@ -10,7 +10,11 @@ export default ({ link, repoUrl, title, tags, summary }) => {
     <div className={styles.root}>
       <h3 className={styles.title}>
         <a href={repoUrl} rel="noopener" target="_blank">
-          <InlineIcon className={styles.icon} icon={githubIcon} />
+          <InlineIcon
+            className={styles.icon}
+            icon={githubIcon}
+            alt="Github repo"
+          />
         </a>
         <Link to={link}>
           <span>{title}</span>
