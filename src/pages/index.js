@@ -32,6 +32,7 @@ export default ({ data }) => {
               return (
                 <ArticleSummary
                   className={styles.gridItem}
+                  uid={project.id}
                   key={project.id}
                   link={project.fields.slug}
                   repoUrl={metadata.repo}

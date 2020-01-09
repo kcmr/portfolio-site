@@ -123,3 +123,7 @@ hr {
     line-height: 1;
   }
 }
+
+.sr-only {
+  @include sr-only;
+}
