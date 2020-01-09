@@ -1,17 +1,28 @@
-@import "../styles/utils.scss";
+@import "../styles/utils";
 
-$gridItemMinWidth: 296px;
+$gridItemMinWidth: 288px;
+
+.headerAligned {
+  @include mq($from: medium) {
+    padding-left: grid-units(12);
+  }
+}
 
 .jumboText {
+  composes: headerAligned;
   font-size: var(--font-size-large-copy);
   font-weight: var(--font-weight-light-copy);
-  padding-left: grid-units(12);
   max-width: grid-units(95.5); // 764
+  margin-bottom: var(--vertical-margin-x-large);
+
+  p {
+    margin-top: 0;
+  }
 }
 
 .projectList {
-  padding-top: grid-units(4);
-  padding-left: grid-units(12);
+  composes: headerAligned;
+  margin-bottom: var(--vertical-margin-large);
 }
 
 .gridList {

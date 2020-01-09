@@ -1,9 +1,12 @@
-@import "../styles/utils.scss";
+@import "../styles/utils";
 
 .root {
-  max-width: grid-units(107); // 856px
-  max-width: grid-units(156); // 1248px
+  max-width: grid-units(160); // 1280px
   margin: 0 auto;
-  padding: grid-units(8) 0;
-  transform: translateX(grid-units(-6));
+  padding: var(--vertical-margin-x-large) grid-units(2);
+  box-sizing: border-box;
+
+  @include mq($from: x-large) {
+    transform: translateX(grid-units(-6));
+  }
 }

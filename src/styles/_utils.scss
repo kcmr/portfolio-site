@@ -1,4 +1,12 @@
+@import "./mq";
+
 $em-base: 16px !default;
+$mq-breakpoints: (
+  small: 426px,
+  medium: 890px,
+  large: 1281px,
+  x-large: 1376px,
+);
 
 @function strip-unit($value) {
   @return ($value / ($value * 0 + 1));
@@ -20,18 +28,3 @@ $em-base: 16px !default;
 @function grid-units($units: 1) {
   @return calc(var(--grid-size) * #{$units});
 }
-
-// @mixin font-size-small {
-//   font-size: var(--font-size-small);
-//   line-height: var(--line-height-for-small);
-// }
-
-// @mixin font-size-medium {
-//   font-size: var(--font-size-medium);
-//   line-height: var(--line-height-for-medium);
-// }
-
-// @mixin font-size-large {
-//   font-size: var(--font-size-large);
-//   line-height: var(--line-height-for-large);
-// }

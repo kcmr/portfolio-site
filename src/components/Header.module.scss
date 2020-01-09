@@ -1,4 +1,4 @@
-@import "../styles/utils.scss";
+@import "../styles/utils";
 
 .root {
   display: flex;
@@ -9,14 +9,20 @@
 .image {
   flex: none;
   margin-right: grid-units(2);
-  width: #{rem(80)};
-  height: #{rem(80)};
+  width: #{rem(60)};
+  height: #{rem(60)};
   border-radius: 4px;
+
+  @include mq($from: small) {
+    width: #{rem(80)};
+    height: #{rem(80)};
+  }
 }
 
 .mainTitle,
 .subTitle {
   margin: 0;
+  line-height: 1.2;
 }
 
 .subTitle {
