@@ -12,14 +12,14 @@ const items = [
     icon: linkedinIcon,
   },
   {
-    link: "http://medium.com/@usepotatoes",
-    text: "Medium",
-    icon: mediumIcon,
-  },
-  {
     link: "https://github.com/kcmr",
     text: "Github",
     icon: githubIcon,
+  },
+  {
+    link: "http://medium.com/@usepotatoes",
+    text: "Medium",
+    icon: mediumIcon,
   },
 ]
 
