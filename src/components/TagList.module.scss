@@ -10,6 +10,7 @@
 
 .item {
   font-size: var(--font-size-small-copy);
+  font-weight: var(--font-weight-regular-copy);
   line-height: #{rem(21)};
   padding-left: grid-units(0.5);
   padding-right: grid-units(0.5);
