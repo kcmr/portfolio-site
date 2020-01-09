@@ -38,8 +38,7 @@ html {
 body {
   margin: 0;
   color: var(--color-neutral-dark);
-  // background-color: var(--color-gray-medium);
-  background: var(--color-gray-medium) url("circuit-board.png") repeat;
+  background: var(--color-gray-medium) url("../images/circuit-board.png") repeat;
   font-family: var(--font-stack-sans-copy);
   line-height: var(--line-height);
 }

@@ -17,10 +17,13 @@
     "@iconify/icons-simple-icons": "^1.0.19",
     "@iconify/react": "^1.1.1",
     "gatsby": "^2.18.12",
+    "gatsby-image": "^2.2.37",
     "gatsby-plugin-sass": "^2.1.26",
+    "gatsby-plugin-sharp": "^2.3.12",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-transformer-remark": "^2.6.45",
+    "gatsby-transformer-sharp": "^2.3.11",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
