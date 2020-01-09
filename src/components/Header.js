@@ -4,7 +4,7 @@ import styles from "./Header.module.scss"
 export default ({ name, jobTitle, imgSrc }) => (
   <div className={styles.root}>
     <img className={styles.image} src={imgSrc} alt="" />
-    <div className="content">
+    <div>
       <h1 className={styles.mainTitle}>{name}</h1>
       <p className={styles.subTitle}>{jobTitle}</p>
     </div>

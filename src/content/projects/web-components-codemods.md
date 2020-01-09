@@ -1,6 +1,7 @@
 ---
 title: Web Components Codemods
-excerpt: Scripts to change or fix existing code in mass using AST and JSCodeshift.
+excerpt: A small collection (for now) of scripts and a CLI to change or fix existing code in mass using AST transformations.
+repo: https://github.com/kcmr/web-components-codemods
 date: 2020-01-05
 tags:
   - Side project

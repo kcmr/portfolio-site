@@ -1,16 +1,16 @@
 ---
-title: Portfolio Site
-excerpt: A site to show my recent projects and play with React. Made with Gatsby and deployed in 27s with Now :)
+title: PostCSS Selector Scope
+excerpt: PostCSS plugin to scope global styles using :not() pseudo-class.
+repo: https://github.com/BBVAEngineering/postcss-selector-scope
 date: 2020-01-05
 tags:
-  - Side project
-  - Gatsby
-  - React
-  - Sass
-  - Sketch
+  - Work
+  - Node
+  - PostCSS
+  - Web Components
 ---
 
-A site to show my recent projects. Made with Gatsby using markdown for the content.
+Scripts to change or fix code using AST and JSCodeshift.
 
 ```shell
 gatsby develop

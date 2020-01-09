@@ -1,6 +1,7 @@
 ---
 title: Color Your Code
 excerpt: Desktop webapp to customize VS Code themes. Made with Web Components.
+repo: https://github.com/kcmr/color-your-code
 date: 2020-01-06
 tags:
   - Side project

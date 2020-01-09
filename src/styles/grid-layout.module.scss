@@ -1,0 +1,19 @@
+@import "./utils.scss";
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr #{rem(292)};
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header"
+    "main sidebar";
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  padding-left: grid-units(4);
+}

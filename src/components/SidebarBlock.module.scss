@@ -1,0 +1,18 @@
+@import "../styles/utils.scss";
+
+.root {
+  margin-bottom: grid-units(4.5);
+}
+
+.title {
+  margin: 0;
+}
+
+.content {
+  font-weight: var(--font-weight-light-copy);
+  font-size: var(--font-size-medium-copy);
+
+  p {
+    margin-top: 0.5rem;
+  }
+}

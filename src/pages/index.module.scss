@@ -4,6 +4,7 @@
   font-size: var(--font-size-large-copy);
   font-weight: var(--font-weight-light-copy);
   padding-left: grid-units(12);
+  max-width: #{rem(763)};
 }
 
 .projectList {
