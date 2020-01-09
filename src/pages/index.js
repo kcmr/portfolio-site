@@ -24,7 +24,7 @@ export default ({ data }) => {
         </div>
 
         <div className={styles.projectList}>
-          <h2>Projects</h2>
+          <h2>Featured projects</h2>
           <div className={styles.gridList}>
             {projects.map(({ node: project }) => {
               const metadata = project.frontmatter
@@ -36,7 +36,6 @@ export default ({ data }) => {
                   link={project.fields.slug}
                   repoUrl={metadata.repo}
                   title={metadata.title}
-                  date={metadata.date}
                   tags={metadata.tags}
                   summary={metadata.excerpt}
                 ></ArticleSummary>
