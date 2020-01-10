@@ -1,0 +1,28 @@
+@import "../styles/utils";
+
+.root {
+  margin: 0 0 grid-units(2);
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-stack-sans-heading);
+  font-weight: var(--font-weight-medium-heading);
+
+  @include mq($from: medium) {
+    margin-bottom: grid-units(4);
+    justify-content: left;
+  }
+}
+
+.item {
+  margin: 0 grid-units(2);
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

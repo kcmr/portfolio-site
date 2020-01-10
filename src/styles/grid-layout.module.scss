@@ -14,8 +14,27 @@
     grid-area: header;
   }
 
+  .pager {
+    grid-area: header;
+    position: relative;
+
+    > * {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
   .sidebar {
     grid-area: sidebar;
     padding-left: grid-units(4);
+  }
+}
+
+@include mq($from: large) {
+  .pager {
+    > * {
+      right: rem(292);
+    }
   }
 }

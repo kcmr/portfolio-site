@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import SidebarBlock from "../components/SidebarBlock"
+import PagerNav from "../components/PagerNav"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import styles from "./project.module.scss"
@@ -34,6 +35,10 @@ export default ({ data }) => {
 
   return (
     <Layout>
+      <nav className={gridStyles.pager}>
+        <PagerNav />
+      </nav>
+
       <main className={styles.root}>
         <article className={styles.article}>
           <Img
