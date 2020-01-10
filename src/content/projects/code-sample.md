@@ -1,6 +1,7 @@
 ---
 title: <code-sample>
 excerpt: Web Component that applies syntax highlighting to fragments of code.
+featuredImage: images/code-sample.png
 repo: https://github.com/kcmr/code-sample
 demo: https://kcmr.github.io/code-sample/
 date: 2020-01-05

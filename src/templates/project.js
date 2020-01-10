@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import SidebarBlock from "../components/SidebarBlock"
 import { graphql } from "gatsby"
+import Img from "gatsby-image"
 import styles from "./project.module.scss"
 import gridStyles from "../styles/grid-layout.module.scss"
 import classNames from "../utils/classnames"
@@ -9,7 +10,14 @@ import { githubIcon, chromeIcon, InlineIcon } from "../utils/icons"
 
 export default ({ data }) => {
   const post = data.markdownRemark
-  const { title, excerpt, techTags: tags, repo, demo } = post.frontmatter
+  const {
+    title,
+    excerpt,
+    techTags: tags,
+    repo,
+    demo,
+    featuredImage,
+  } = post.frontmatter
   const links = [
     {
       url: repo,
@@ -26,6 +34,10 @@ export default ({ data }) => {
     <Layout>
       <main className={styles.root}>
         <article className={styles.article}>
+          <Img
+            className={styles.image}
+            fluid={featuredImage.childImageSharp.fluid}
+          />
           <h1 className={styles.title}>{title}</h1>
           <p className={styles.excerpt}>{excerpt}</p>
           <div
@@ -93,6 +105,13 @@ export const query = graphql`
         techTags
         repo
         demo
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 754) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

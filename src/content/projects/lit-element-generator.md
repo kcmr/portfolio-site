@@ -1,6 +1,7 @@
 ---
 title: LitElement Component Generator
 excerpt: CLI tool to create Web Components with LitElement using some @open-wc recommendations and Parcel bundler.
+featuredImage: images/lit-component-generator.png
 repo: https://github.com/kcmr/create-lit-component
 date: 2020-01-05
 tags:

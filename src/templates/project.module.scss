@@ -8,6 +8,12 @@
 .article {
   @include box-with-shadow;
   padding-top: 0;
+  overflow: hidden;
+}
+
+.image {
+  margin-left: grid-units(-2);
+  margin-right: grid-units(-2);
 }
 
 .title {

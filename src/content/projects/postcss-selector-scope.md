@@ -1,6 +1,7 @@
 ---
 title: PostCSS Selector Scope
 excerpt: PostCSS plugin to scope global styles using :not() pseudo-class.
+featuredImage: images/postcss.png
 repo: https://github.com/BBVAEngineering/postcss-selector-scope
 date: 2020-01-05
 tags:

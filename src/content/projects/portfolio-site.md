@@ -1,6 +1,7 @@
 ---
 title: Portfolio Site
 excerpt: A site to show my recent projects and play with React. Made with Gatsby and deployed in 27s with Now :)
+featuredImage: images/portfolio-site.png
 date: 2020-01-05
 tags:
   - Side project

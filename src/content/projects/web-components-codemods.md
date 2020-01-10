@@ -1,6 +1,7 @@
 ---
 title: Web Components Codemods
 excerpt: A small collection (for now) of scripts and a CLI to change or fix existing code in mass using AST transformations.
+featuredImage: images/kodemod.png
 repo: https://github.com/kcmr/web-components-codemods
 date: 2020-01-05
 tags:
