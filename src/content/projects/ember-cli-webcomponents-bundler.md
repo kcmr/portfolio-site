@@ -15,10 +15,17 @@ techTags:
   - Node
   - Broccoli
   - Rollup
+  - Babel
+  - PostCSS
+  - Autoprefixer
   - Ember-addon
   - Mocha
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae accusantium molestiae perspiciatis repellat, dicta saepe asperiores molestias adipisci. Perspiciatis dolorem doloremque accusamus aut voluptatum velit voluptatibus quis eius. Deleniti, repellat!
+`ember-cli-webcomponents-bundler` is a work project to import and bundle Web Components using ES6 modules in an Ember application.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error deserunt sed odit maxime vero sint eum ex aut quidem. Voluptatum omnis, hic neque. Odio, accusantium nulla praesentium excepturi minima sed.
+By default it automatically imports the generated bundle(s) and the required polyfills. This option can be disabled to import the scripts on demand (lazy loading).
+
+It also allows to import CSS files directly from components and can generate different bundles for browsers with and without support of ES6 modules.
+
+It uses Rollup to bundle the scripts and applies autoprefixer to imported styles based on the build settings of the host application.

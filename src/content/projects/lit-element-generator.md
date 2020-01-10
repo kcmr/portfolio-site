@@ -8,15 +8,17 @@ tags:
   - Own project
   - Node
   - CLI
-  - OClif
+  - Oclif
   - Parcel
 techTags:
   - Node
   - CLI
-  - OClif
+  - Oclif
   - Parcel
+  - Inquirer
+  - Cosmiconfig
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ab ad, beatae quidem amet, necessitatibus magnam itaque nobis libero assumenda, illo culpa nesciunt architecto suscipit dolorum consectetur repellendus quia harum.
+LitElement Web Component generator is a minimal scaffold generator for Web Components with LitElement. It's still a work in progress and a little experiment using the [Parcel bundler](https://parceljs.org/) to build and serve the component's demo. It uses some of the [open-wc](https://open-wc.org/) recommendations for unit testing and the included files in the package.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, nam adipisci ipsa obcaecati commodi nesciunt ratione autem enim tempore magnam numquam veniam doloribus blanditiis ea fugit perspiciatis reiciendis tempora mollitia?
+The CLI uses the [Oclif framework](https://oclif.io/) and other great tools like [Inquirer](https://www.npmjs.com/package/inquirer) for the prompt and [Cosmiconfig](https://www.npmjs.com/package/cosmiconfig) to allow the use of configuration files (`*rc`) and save the user preferences for the command.

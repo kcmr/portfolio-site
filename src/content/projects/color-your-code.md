@@ -1,6 +1,6 @@
 ---
 title: Color Your Code
-excerpt: Desktop webapp to customize VS Code themes. Made with Web Components.
+excerpt: Desktop webapp to customize VS Code themes. Made with Web Components and Custom CSS Properties.
 featuredImage: images/color-your-code.png
 repo: https://github.com/kcmr/color-your-code
 demo: https://color-your-code.firebaseapp.com/
@@ -13,11 +13,14 @@ tags:
 techTags:
   - Web Components
   - LitElement
+  - Gulp
   - Sass
   - Custom CSS Properties
   - Mocha
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis enim ducimus optio. Sed est, ad nostrum, nihil in deserunt natus veniam eveniet aut pariatur animi ipsam fuga nam quo sint!
+Color Your Code is a desktop web application to facilitate the customization of Visual Studio Code themes by providing a color picker (the OS native picker that comes with `input[type="color"]`) that lets you choose colors for different parts of the editor.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad earum amet, deserunt totam aliquam iusto est minus necessitatibus, pariatur corporis eligendi, doloremque animi iure expedita iste fugit quam nulla velit.
+It uses Custom CSS Properties to allow the live preview of the changes and build the final `theme.json` that you can download when you finish editing a theme.
+
+It was my first LitElement project (previously it used Polymer 3) and it was really a challenge to replicate the interface of the editor with CSS (almost “pixel perfect”).

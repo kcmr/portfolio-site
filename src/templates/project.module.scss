@@ -28,6 +28,15 @@
 
 .content {
   max-width: grid-units(66.25);
+
+  code {
+    font-size: 110%;
+  }
+
+  a {
+    font-weight: var(--font-weight-regular-copy);
+    text-decoration: underline;
+  }
 }
 
 .sidebarList {

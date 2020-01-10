@@ -125,6 +125,11 @@ hr {
   }
 }
 
+pre,
+code {
+  font-family: monospace, monospace;
+}
+
 .sr-only {
   @include sr-only;
 }

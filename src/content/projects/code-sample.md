@@ -12,10 +12,9 @@ tags:
 techTags:
   - Web Components
   - LitElement
-  - highlight.js
+  - Highlight.js
+  - Gulp
   - Karma
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus consequatur ipsa ipsam praesentium quam amet maxime assumenda officiis illo quos, voluptas accusantium, iure aliquid. Voluptas, unde rem perferendis recusandae. Nulla.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quam quod quibusdam repellat nulla rem nobis neque dolor voluptate corporis soluta iusto aliquid explicabo, vel, nemo dolorem. Consequatur voluptates, sed?
+`<code-sample>` is a Web Component to facilitate the inclusion of code fragments in web pages without the need of encoding entities, worring about spacing or script execution. It uses [Highlight.js](https://highlightjs.org/) library for syntax highlighting and includes several themes and the possibility of using a custom one.

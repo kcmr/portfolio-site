@@ -15,6 +15,8 @@ techTags:
   - Jest
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore commodi temporibus nam ipsa earum obcaecati et autem at cumque, sequi aliquam dolorem iure sapiente ducimus itaque reprehenderit accusamus est beatae.
+PostCSS Selector Scope is a work project that arises from the need to apply some kind of encapsulation for application global styles to prevent undesired styles having effect over Web Components in browsers without Shadow DOM support.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, perferendis velit illo aliquid optio, sapiente aperiam eum ea mollitia. Unde in numquam illo, mollitia quam repellendus, nulla cupiditate nobis. Laudantium.
+It uses the default selector (`:not(.style-scope)`) applied by the [ShadyCSS library](https://github.com/webcomponents/polyfills/tree/master/packages/shadycss) but it can be customized to fit different needs.
+
+ShadyCSS only can scope styles that are inside a `<template>` element (Polymer's `<custom-style>` tag), so the plugin does the same but over CSS files.
