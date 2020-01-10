@@ -5,7 +5,7 @@ featuredImage: images/kodemod.png
 repo: https://github.com/kcmr/web-components-codemods
 date: 2020-01-05
 tags:
-  - Side project
+  - Own project
   - Node
   - JSCodeshift
   - AST

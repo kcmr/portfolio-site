@@ -6,7 +6,7 @@ repo: https://github.com/kcmr/color-your-code
 demo: https://color-your-code.firebaseapp.com/
 date: 2020-01-06
 tags:
-  - Side project
+  - Own project
   - LitElement
   - Web Components
   - CSS

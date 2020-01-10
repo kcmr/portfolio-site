@@ -6,7 +6,7 @@ repo: https://github.com/kcmr/code-sample
 demo: https://kcmr.github.io/code-sample/
 date: 2020-01-05
 tags:
-  - Side project
+  - Own project
   - Web Components
   - LitElement
 techTags:

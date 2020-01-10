@@ -5,7 +5,7 @@ featuredImage: images/lit-component-generator.png
 repo: https://github.com/kcmr/create-lit-component
 date: 2020-01-05
 tags:
-  - Side project
+  - Own project
   - Node
   - CLI
   - OClif

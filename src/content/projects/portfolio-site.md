@@ -4,7 +4,7 @@ excerpt: A site to show my recent projects and play with React. Made with Gatsby
 featuredImage: images/portfolio-site.png
 date: 2020-01-05
 tags:
-  - Side project
+  - Own project
   - Gatsby
   - React
   - Sass
