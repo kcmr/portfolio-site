@@ -6,7 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Baby Site",
+    title: "Kus Cámara Portfolio",
+    description:
+      "Front End Developer – HTML, CSS, JavaScript, Web Components, NodeJS",
   },
   plugins: [
     {
@@ -28,5 +30,19 @@ module.exports = {
     },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "Kus Cámara Portfolio",
+        short_name: "KusCamara",
+        start_url: "/",
+        background_color: "#f6f7f9",
+        theme_color: "#f6f7f9",
+        display: "standalone",
+        icon: "src/images/icon.png",
+      },
+    },
+    "gatsby-plugin-offline",
+    "gatsby-plugin-react-helmet",
   ],
 }

@@ -8,9 +8,10 @@ import gridStyles from "../styles/grid-layout.module.scss"
 
 export default ({ data }) => {
   const projects = data.allMarkdownRemark.edges
+  const metadata = data.site.siteMetadata
 
   return (
-    <Layout>
+    <Layout pageTitle={metadata.title} pageDescription={metadata.description}>
       <main>
         <div className={styles.jumboText}>
           <p>
@@ -55,6 +56,12 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
     allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___position] }) {
       edges {
         node {

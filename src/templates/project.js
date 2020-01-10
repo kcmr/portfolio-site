@@ -34,7 +34,7 @@ export default ({ data, pageContext }) => {
   const hasLinks = links.map(link => link.url).filter(Boolean).length > 0
 
   return (
-    <Layout>
+    <Layout pageTitle={title} pageDescription={excerpt}>
       <nav className={gridStyles.pager}>
         <PagerNav prev={pageContext.prev} next={pageContext.next} />
       </nav>
