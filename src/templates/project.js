@@ -1,13 +1,11 @@
 import React from "react"
-import githubIcon from "@iconify/icons-simple-icons/github"
-import chromeIcon from "@iconify/icons-simple-icons/googlechrome"
-import { InlineIcon } from "@iconify/react"
 import Layout from "../components/Layout"
 import SidebarBlock from "../components/SidebarBlock"
 import { graphql } from "gatsby"
 import styles from "./project.module.scss"
 import gridStyles from "../styles/grid-layout.module.scss"
 import classNames from "../utils/classnames"
+import { githubIcon, chromeIcon, InlineIcon } from "../utils/icons"
 
 export default ({ data }) => {
   const post = data.markdownRemark

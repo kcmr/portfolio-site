@@ -1,8 +1,5 @@
 import React from "react"
-import githubIcon from "@iconify/icons-simple-icons/github"
-import mediumIcon from "@iconify/icons-simple-icons/medium"
-import linkedinIcon from "@iconify/icons-simple-icons/linkedin"
-import { Icon } from "@iconify/react"
+import { githubIcon, mediumIcon, linkedinIcon, Icon } from "../utils/icons"
 import styles from "./SocialLinks.module.scss"
 
 const items = [

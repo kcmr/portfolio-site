@@ -1,9 +1,8 @@
-import githubIcon from "@iconify/icons-simple-icons/github"
-import { InlineIcon } from "@iconify/react"
 import { Link } from "gatsby"
 import React from "react"
 import TagList from "../components/TagList"
 import styles from "./ArticleSummary.module.scss"
+import { githubIcon, InlineIcon } from "../utils/icons"
 
 export default ({ link, repoUrl, title, tags, summary, uid }) => {
   const tagLabelId = `label-${uid.split("-")[0]}`
