@@ -9,23 +9,14 @@ tags:
   - JSCodeshift
   - AST
   - CLI
+techTags:
+  - Node
+  - AST
+  - JSCodeshift
+  - Jest
+  - CLI
 ---
 
-Scripts to change or fix code using AST and JSCodeshift.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis iusto suscipit eius assumenda laborum, voluptates sit ipsa nobis error molestiae tempora numquam architecto aliquam a aspernatur, tempore cumque quis reiciendis.
 
-```shell
-gatsby develop
-```
-
-This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
-
-## Heading level 2
-
-This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
-
-- list item
-- two
-- tres
-- catorce
-
-
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic corporis, deleniti esse adipisci aut est repudiandae doloremque quas, consequatur, inventore facilis. Harum impedit temporibus, nostrum veritatis quia dignissimos soluta quod!

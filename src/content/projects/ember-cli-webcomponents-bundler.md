@@ -2,6 +2,7 @@
 title: ember-cli-webcomponents-bundler
 excerpt: Ember addon for using Web Components in Ember applications.
 repo: https://github.com/BBVAEngineering/ember-cli-webcomponents-bundler
+demo: https://bbvaengineering.github.io/ember-cli-webcomponents-bundler/
 date: 2020-01-05
 tags:
   - Work
@@ -9,23 +10,14 @@ tags:
   - Broccoli
   - Rollup
   - Ember
+techTags:
+  - Node
+  - Broccoli
+  - Rollup
+  - Ember-addon
+  - Mocha
 ---
 
-Ember addon for using Web Components in Ember applications.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae accusantium molestiae perspiciatis repellat, dicta saepe asperiores molestias adipisci. Perspiciatis dolorem doloremque accusamus aut voluptatum velit voluptatibus quis eius. Deleniti, repellat!
 
-```shell
-gatsby develop
-```
-
-This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
-
-## Heading level 2
-
-This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
-
-- list item
-- two
-- tres
-- catorce
-
-
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error deserunt sed odit maxime vero sint eum ex aut quidem. Voluptatum omnis, hic neque. Odio, accusantium nulla praesentium excepturi minima sed.

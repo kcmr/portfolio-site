@@ -41,3 +41,17 @@ $mq-breakpoints: (
   white-space: nowrap !important;
   border: 0 !important;
 }
+
+@mixin box-with-shadow {
+  background-color: var(--color-neutral-light);
+  box-shadow: 0 5px 6px -5px rgba(0, 0, 0, 0.2),
+    inset 0 -1px 0 0 var(--color-gray-medium);
+  border-radius: 3px;
+  padding: grid-units(2);
+}
+
+@mixin header-aligned {
+  @include mq($from: medium) {
+    padding-left: grid-units(12);
+  }
+}

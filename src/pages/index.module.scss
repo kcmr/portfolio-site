@@ -1,13 +1,7 @@
 @import "../styles/utils";
 
-.headerAligned {
-  @include mq($from: medium) {
-    padding-left: grid-units(12);
-  }
-}
-
 .jumboText {
-  composes: headerAligned;
+  @include header-aligned;
   font-size: var(--font-size-large-copy);
   font-weight: var(--font-weight-light-copy);
   max-width: grid-units(95.5);
@@ -19,7 +13,7 @@
 }
 
 .projectList {
-  composes: headerAligned;
+  @include header-aligned;
   margin-bottom: var(--vertical-space-large);
 }
 

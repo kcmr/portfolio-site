@@ -2,28 +2,19 @@
 title: <code-sample>
 excerpt: Web Component that applies syntax highlighting to fragments of code.
 repo: https://github.com/kcmr/code-sample
+demo: https://kcmr.github.io/code-sample/
 date: 2020-01-05
 tags:
   - Side project
   - Web Components
   - LitElement
+techTags:
+  - Web Components
+  - LitElement
+  - highlight.js
+  - Karma
 ---
 
-Scripts to change or fix code using AST and JSCodeshift.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus consequatur ipsa ipsam praesentium quam amet maxime assumenda officiis illo quos, voluptas accusantium, iure aliquid. Voluptas, unde rem perferendis recusandae. Nulla.
 
-```shell
-gatsby develop
-```
-
-This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
-
-## Heading level 2
-
-This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
-
-- list item
-- two
-- tres
-- catorce
-
-
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quam quod quibusdam repellat nulla rem nobis neque dolor voluptate corporis soluta iusto aliquid explicabo, vel, nemo dolorem. Consequatur voluptates, sed?

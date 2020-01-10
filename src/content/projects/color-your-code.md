@@ -2,29 +2,21 @@
 title: Color Your Code
 excerpt: Desktop webapp to customize VS Code themes. Made with Web Components.
 repo: https://github.com/kcmr/color-your-code
+demo: https://color-your-code.firebaseapp.com/
 date: 2020-01-06
 tags:
   - Side project
   - LitElement
   - Web Components
   - CSS
+techTags:
+  - Web Components
+  - LitElement
+  - Sass
+  - Custom CSS Properties
+  - Mocha
 ---
 
-Desktop webapp to customize VS Code themes. Made with Web Components.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis enim ducimus optio. Sed est, ad nostrum, nihil in deserunt natus veniam eveniet aut pariatur animi ipsam fuga nam quo sint!
 
-```shell
-gatsby develop
-```
-
-This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
-
-## Heading level 2
-
-This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
-
-- list item
-- two
-- tres
-- catorce
-
-
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad earum amet, deserunt totam aliquam iusto est minus necessitatibus, pariatur corporis eligendi, doloremque animi iure expedita iste fugit quam nulla velit.

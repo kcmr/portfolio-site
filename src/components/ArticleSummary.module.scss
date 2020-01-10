@@ -3,11 +3,7 @@
 .root {
   display: flex;
   flex-direction: column;
-  background-color: var(--color-neutral-light);
-  box-shadow: 0 5px 6px -5px rgba(0, 0, 0, 0.2),
-    inset 0 -1px 0 0 var(--color-gray-medium);
-  border-radius: 3px;
-  padding: grid-units(2);
+  @include box-with-shadow;
 }
 
 .title {

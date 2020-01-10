@@ -8,23 +8,15 @@ tags:
   - React
   - Sass
   - Sketch
+techTags:
+  - Gatsby
+  - React
+  - Sass
+  - CSS Modules
+  - PWA
+  - SSR
 ---
 
-A site to show my recent projects. Made with Gatsby using markdown for the content.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quod sint. Distinctio obcaecati facilis ab, reprehenderit quibusdam minima voluptate! Quod similique perferendis temporibus voluptatum sequi. Quo vitae molestias ipsa sunt.
 
-```shell
-gatsby develop
-```
-
-This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
-
-## Heading level 2
-
-This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
-
-- list item
-- two
-- tres
-- catorce
-
-
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio et tempora ea quibusdam velit voluptatem incidunt fugiat voluptate culpa, odit illo repudiandae voluptatum, minus nostrum impedit quas, sapiente. Praesentium, error.

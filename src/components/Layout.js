@@ -4,10 +4,7 @@ import Header from "./Header"
 import SocialLinks from "./SocialLinks"
 import styles from "./Layout.module.scss"
 import gridStyles from "../styles/grid-layout.module.scss"
-
-function classNames() {
-  return [...arguments].join(" ")
-}
+import classNames from "../utils/classnames"
 
 export default ({ children }) => {
   const data = useStaticQuery(
