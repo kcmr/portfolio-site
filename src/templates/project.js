@@ -9,7 +9,7 @@ import gridStyles from "../styles/grid-layout.module.scss"
 import classNames from "../utils/classnames"
 import { githubIcon, chromeIcon, InlineIcon } from "../utils/icons"
 
-export default ({ data }) => {
+export default ({ data, pageContext }) => {
   const post = data.markdownRemark
   const {
     title,
@@ -36,7 +36,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <nav className={gridStyles.pager}>
-        <PagerNav />
+        <PagerNav prev={pageContext.prev} next={pageContext.next} />
       </nav>
 
       <main className={styles.root}>

@@ -4,7 +4,7 @@ excerpt: Ember addon for using Web Components in Ember applications.
 featuredImage: images/ember-cli.png
 repo: https://github.com/BBVAEngineering/ember-cli-webcomponents-bundler
 demo: https://bbvaengineering.github.io/ember-cli-webcomponents-bundler/
-date: 2020-01-05
+position: 4
 tags:
   - Work
   - Node
