@@ -54,16 +54,16 @@ export default ({ data }) => {
         </SidebarBlock>
         <SidebarBlock title="Me in 3 years…">
           <p>
-            I hope to be a better and more experienced developer that can solve
-            problems in simpler ways and take better decisions. In other words,
-            I don't like to manage people.
+            3 years is a long time, but I hope to be a better and more
+            experienced developer that can solve problems in simpler ways and
+            take better decisions. In other words, I want to continue coding!
           </p>
         </SidebarBlock>
         <SidebarBlock title="Near goals">
           <p>
             I want to gain deeper knowledge about design patterns, refactoring
-            techniques and clean coding. Regarding to technologies, I want to
-            learn more about Node and start using React.
+            techniques, clean coding, algorithms… Regarding to technologies, I
+            want to learn more about Node and start using React.
           </p>
         </SidebarBlock>
         <SidebarBlock title="Learned lessons">
