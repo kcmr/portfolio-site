@@ -22,12 +22,12 @@ export default ({ data }) => {
     {
       url: repo,
       icon: githubIcon,
-      alt: "Github repo",
+      label: "Github repo",
     },
     {
       url: demo,
       icon: chromeIcon,
-      alt: "Website",
+      label: "Website / Demo",
     },
   ]
   const hasLinks = links.map(link => link.url).filter(Boolean).length > 0
@@ -70,7 +70,7 @@ export default ({ data }) => {
           <SidebarBlock title="Links">
             <ul className={styles.sidebarList}>
               {links.map(
-                ({ url, icon, alt }, index) =>
+                ({ url, icon, label }, index) =>
                   url && (
                     <li className={styles.sidebarListItem} key={index}>
                       <a
@@ -78,14 +78,13 @@ export default ({ data }) => {
                         rel="noopener noreferrer"
                         target="_blank"
                         className={styles.linkWithIcon}
-                        aria-label={alt}
                       >
                         <InlineIcon
                           icon={icon}
                           width="16px"
                           className={styles.linkIcon}
                         />
-                        <span className={styles.linkText}>{url}</span>
+                        <span className={styles.linkText}>{label}</span>
                       </a>
                     </li>
                   )
