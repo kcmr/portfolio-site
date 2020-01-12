@@ -5,11 +5,16 @@ import styles from "./ArticleSummary.module.scss"
 import { githubIcon, InlineIcon } from "../utils/icons"
 
 export default ({ link, repoUrl, title, tags, summary, uid }) => {
-  const tagLabelId = `label-${uid.split("-")[0]}`
+  const shortUid = uid.split("-")[0]
+  const tagLabelId = `label-${shortUid}`
+  const linkLabelId = `link-${shortUid}`
 
   return (
     <article className={styles.root}>
       <h3 className={styles.title}>
+        <Link to={link} id={linkLabelId}>
+          {title}
+        </Link>
         <a
           className={styles.iconLink}
           href={repoUrl}
@@ -19,7 +24,6 @@ export default ({ link, repoUrl, title, tags, summary, uid }) => {
         >
           <InlineIcon className={styles.icon} icon={githubIcon} />
         </a>
-        <Link to={link}>{title}</Link>
       </h3>
 
       <p className={styles.summary}>{summary}</p>
