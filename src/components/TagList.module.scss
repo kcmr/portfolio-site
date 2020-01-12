@@ -4,7 +4,8 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
   color: var(--color-gray-dark);
 }
 
@@ -16,7 +17,4 @@
   padding-right: grid-units(0.5);
   border-radius: 2px;
   margin-right: grid-units(1);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
