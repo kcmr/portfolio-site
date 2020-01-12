@@ -98,6 +98,10 @@ export default ({ data, pageContext }) => {
           </SidebarBlock>
         )}
       </aside>
+
+      <nav className={classNames(gridStyles.pager, "mobile-only")}>
+        <PagerNav prev={pageContext.prev} next={pageContext.next} />
+      </nav>
     </Layout>
   )
 }

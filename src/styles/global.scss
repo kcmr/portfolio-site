@@ -133,3 +133,9 @@ code {
 .sr-only {
   @include sr-only;
 }
+
+.mobile-only {
+  @include mq($from: medium) {
+    display: none;
+  }
+}
