@@ -12,7 +12,7 @@ export default ({ link, repoUrl, title, tags, summary, uid }) => {
   return (
     <article className={styles.root}>
       <h3 className={styles.title}>
-        <Link to={link} id={linkLabelId}>
+        <Link to={link} id={linkLabelId} className={styles.textLink}>
           {title}
         </Link>
         <a
